@@ -52,3 +52,39 @@ body {
   line-height: 1.7;
   color: #3d3d3d;
 }
+
+header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+#nav-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  box-shadow: 0px 4px 12px #bdbdbd;
+}
+
+#header-img {
+  width: 200px;
+}
+
+#nav-bar .navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+#nav-bar .navbar-right .nav-link {
+  margin-left: 30px;
+}
+
+#nav-bar .navbar-right .nav-link a:hover{
+  color: #a3a3a3;
+}
+
+section{
+  min-height: 300px;
+  border: 0.5px dashed red;
+}

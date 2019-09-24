@@ -144,7 +144,42 @@ section{
 }
 
 #features{
-  border: 0.5px dashed blue;
+  padding: 100px 25px;
+}
+
+.features{
+  max-width:900px;
+  margin: 0 auto;
+  display: flex;
+  /* here the media query */
+}
+
+@media only screen and (max-width: 600px) {
+  .features {
+    display: block;
+  }
+}
+
+.features li{
+  padding: 0 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .features li{
+    padding-bottom: 20px;
+  }
+}
+
+.features li i{
+  color: orange;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.features li h3{
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 footer{
